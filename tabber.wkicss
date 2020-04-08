@@ -1,0 +1,74 @@
+/* tabber overrides*/
+ 
+.WikiaArticle .tabberlive .tabbertab {
+   border: 1px #323232 solid;
+   border-top:0;
+   background-color:none;
+}
+ 
+.WikiaArticle ul.tabbernav {
+ border-bottom: 1px #323232 solid;
+ font: bold 14px Arial, sans-serif;
+}
+ 
+.WikiaArticle ul.tabbernav li a {
+ border-bottom: 1px #323232 solid;
+ background-image: -moz-linear-gradient(
+    rgb(0,14,21),
+    rgb(0,47,89));
+ background-image: -webkit-linear-gradient(
+    rgb(0,14,21),
+    rgb(0,47,89));
+ background-image: -o-linear-gradient(
+    rgb(0,14,21),
+    rgb(0,47,89));
+ background-image: linear-gradient(
+    rgb(0,14,21),
+    rgb(0,47,89));
+    line-height: 21px;
+}
+ 
+.WikiaArticle ul.tabbernav li a:link { color: #FAFAFA; }
+.WikiaArticle ul.tabbernav li a:visited { color: #FAFAFA; }
+ 
+.WikiaArticle ul.tabbernav li a:hover
+{
+ border-color: #323232;
+ background-image: -moz-linear-gradient(
+    rgb(21,64,80),
+    rgb(21,87,113));
+ background-image: -webkit-linear-gradient(
+    rgb(21,64,80),
+    rgb(21,87,113));
+ background-image: -o-linear-gradient(
+    rgb(21,64,80),
+    rgb(21,87,113));
+ background-image: linear-gradient(
+    rgb(21,64,80),
+    rgb(21,87,113));
+}
+ 
+.WikiaArticle ul.tabbernav li.tabberactive a, * ul.tabbernav li.tabberactive a:hover
+{
+ color: #FCE300; 
+ border-bottom: 1px #323232 solid;
+ background-image: -moz-linear-gradient(
+    rgb(95,137,166),
+    rgb(33,49,66));
+ background-image: -webkit-linear-gradient(
+    rgb(95,137,166),
+    rgb(33,49,66));
+ background-image: -o-linear-gradient(
+    rgb(95,137,166),
+    rgb(33,49,66));
+ background-image: linear-gradient(
+    rgb(95,137,166),
+    rgb(33,49,66));
+}
+ 
+.WikiaArticle ul.tabbernav wbr::after
+{
+ content: "\200B";
+}
+/* end of tabber overrides*/
+ 
